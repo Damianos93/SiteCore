@@ -19,7 +19,7 @@ function CollectionsComponent({ name, tags,subTag,subTagName}) {
                         <Breadcrumb>
                             <Breadcrumb.Item >{tags}</Breadcrumb.Item>
                             <Breadcrumb.Item>
-                                {subTag}
+                                {subTag}s
                              </Breadcrumb.Item>
                             <Breadcrumb.Item active>{subTagName}</Breadcrumb.Item>
                         </Breadcrumb>
