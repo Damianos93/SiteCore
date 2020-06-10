@@ -93,7 +93,7 @@ class MasterAssets extends Component {
                                     name={el.name}
                                     tags={el.tags.name}
                                     subTag={el.tags.subTag.name}
-                                    subTagName={el.tags.subTag.subTag.name}
+                                    subTagName={el?.tags?.subTag?.subTag?.name}
 
                                 />
                             </div>

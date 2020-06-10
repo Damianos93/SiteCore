@@ -20,7 +20,10 @@ const collections = [
         tags: {
             name: "DC Super heroes",
             subTag: {
-                name: "2014",
+                name: "Super heroes",
+                subTag: {
+                    name: "2014",
+                }
             },
         },
     },
